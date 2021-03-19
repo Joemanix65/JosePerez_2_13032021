@@ -3,14 +3,14 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 body {
     line-height: 1.4;
-    margin: 0;
     font-family: 'Raleway', sans-serif;
-    
+    display: flex;
+	justify-content: center;
     /*border: solid red;*/
 }
 
@@ -19,55 +19,72 @@ a {
     text-decoration: none;
 }
 
-header {
+#container {
+	width: 100%;
+	max-width: 1500px;
+}
+
+.header {
         display: flex;
-        width: 100vw;
-        display: flex;
-        /*border: solid red;*/
+        justify-content: space-between;
+        max-width: 1400px;
+        margin-top: 20px;
+}
+
+.navbarre {
+    width: 100%;
+    display: flex; 
+    
+    flex-wrap: wrap;
+    align-items: center;
+    /*border: solid blue;*/
+}
+
+.figure{
+    display: flex; 
+    flex-grow: 1;
+    margin-left: 15px;
+    padding-right: 80px;
+    /*border: solid green;*/
 }
 
 .imglogo {
-    margin: 0;
-    
-    
-    /*border: solid green;*/
-}
-.item1{
-    margin: 0;
-}
-.item2{
-    margin: 0;
-}
-.item3{
-    margin: 0;
-}
-.navbarre {
-    
-    
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    justify-content: center;
-    height: 100px;
-    border: solid blue;
+    order:1;
+    width: 95px;
+    height: 45px;    
 }
 
-.navbar-item {
-    order: 3;
-    transition: .3s;
-    border-top: 3px transparent solid;
-    border-bottom: 3px transparent solid;
-    padding: 10px;
+.anchor, .anchor1 {
+    order:3;
+    display: flex;
+    font-weight: 500;
+    margin: 0 40px;
+    /*border: solid yellow;*/
+    padding-left: 11px;
+    padding-right: 11px; 
 }
 
-.navbar-item:hover {
-    color:#0065FC
+.anchor, .anchor1:hover {
+    color:#0065FC;
+    font-weight: bold;
+    border-bottom:3px solid #0065FC;
+    padding-bottom: 10px;
+}
+
+.anchor{
+    margin-right: 160px;
+    
 }
 
 .register {
-    
     order: 2;
-    justify-self: end;
-    padding-right: 5vw;
+    margin-right: 10px;
     color:#0065FC;
-    font-weight: 700;
+    font-weight: 900;
+    /*border: solid red;*/
+}
+
+.element:nth-child(3)
+{
+    order: 2;
 }
