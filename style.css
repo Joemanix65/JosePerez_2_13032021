@@ -493,7 +493,72 @@ h3.foot{
 @media screen and (min-width: 1024px){
     #container {
         width: 100%;
-        max-width: 1400px;
+        max-width: 1400px;   
+    }
+
+    .filtre_bar{
+        display: flex;
+        align-items: center;
+    }
+
+    .filtreTitre{
+        margin-right: 20px;
+        margin-left: 30px;
+    }
+
+    .asideHost{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .aside{
+        height: 600px;
+        width: 390px;
+        margin-top: 40px;
+        margin-right: 50px;
+        border-radius: 25px 25px 25px 25px;
         
+        padding-right: 15px;
+    }
+
+    .hosting{
+        background-color:#f2f2f2;
+        border-radius: 25px 25px 25px 25px;
+        margin-top: 40px;
+        margin-left: 25px;
+        
+        height: 600px;
+        width: 900px;
+    }
+
+    .hostingTitre{
+        margin-left: 50px;
+    }
+
+    h3.affichePlus{
+        margin-left: 60px;
+    }
+
+    .hostingHotel{
+        width: 900px;
+        
+        padding-right: 15px;
+    }
+
+    .popularLink{
+        width: 340px;
+        margin-bottom: 30px;
+        border: 1px solid red;
+    }
+
+    .HotelLink{
+        background-color: white;
+        box-shadow: 0px 3px 3px rgb(197, 196, 196);
+        width: 260px;
+        
+    }
+    .hostImg{
+        width: 248px;
     }
 }
