@@ -159,6 +159,7 @@ p{
     margin-top: 10px;
     margin-left: 15px;
     margin-right: 280px;
+    font-size: 1.4 rem;
     flex-grow: 1;
 }
 
@@ -172,7 +173,6 @@ p{
     display: flex;
     align-items: center;
     width: auto;
-    
     border: 3px solid #f2f2f2;
     border-radius: 50px 50px 50px 50px;
     margin-left: 5px;
@@ -200,7 +200,7 @@ p{
 
 .filtreNom{
     margin: 0 10px 0 10px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -347,7 +347,12 @@ h3.affichePlus{
     margin-top: 30px;
 }
 
-.activityLink{
+.activityLink1,
+.activityLink2,
+.activityLink3,
+.activityLink4,
+.activityLink5,
+.activityLink6{
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -379,7 +384,6 @@ h3.affichePlus{
     padding-top: 15px;
     padding-bottom: 50px;
     margin-top: 50px;
-    
 }
 
 h3.foot{
@@ -504,6 +508,8 @@ h3.foot{
     .filtreTitre{
         margin-right: 20px;
         margin-left: 30px;
+        font-size: 1.4 rem;
+        font-weight: 600;
     }
 
     .asideHost{
@@ -542,23 +548,114 @@ h3.foot{
 
     .hostingHotel{
         width: 900px;
-        
         padding-right: 15px;
     }
 
     .popularLink{
         width: 340px;
         margin-bottom: 30px;
-        border: 1px solid red;
     }
 
     .HotelLink{
         background-color: white;
         box-shadow: 0px 3px 3px rgb(197, 196, 196);
         width: 260px;
-        
     }
+
     .hostImg{
         width: 248px;
+    }
+
+    .activitySample{
+        display: flex;
+        height: 480px;
+        width: 1200px;
+        flex-flow: column wrap;
+    }
+
+    .activityLink1,
+    .activityLink4{
+        width: 310px;
+        height: 450px;
+    }   
+    .activityLink1{
+        order: 1;
+        margin-right: 60px;
+        margin-top: 12px;
+    }
+    .activityLink4{
+        order: 3;
+        margin-top: 12px;
+        margin-left: -12px;
+    }
+
+    .activityLink2,
+    .activityLink3{
+        order: 2;
+        margin-left: -22px;
+        margin-right: 50px;
+    }
+
+    .activityLink2{
+        height: 210px;
+        margin-top: 12px;
+        margin-bottom: 20px;
+    }
+
+    .Img2{
+        height: 150px;
+    }
+
+    .activityLink3{
+        margin-top: 20px;
+    }
+
+    .Img3{
+        height: 140px;
+    }
+
+    .activityLink5,
+    .activityLink6{
+        order: 4;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .activityLink5{
+        margin-bottom: 5px;
+        height: 180px;
+    }
+
+    .Img5{
+        height: 120px;
+    }
+
+    .activityLink6{
+        height: 220px;
+        margin-top: 40px;
+    }
+    
+    .Img6{
+        height: 160px;
+    }
+
+    .Img1,
+    .Img4{
+        width: 308px;
+        height: 450px;
+        border-radius: 15px 15px 0 0;
+        margin-left: 0;
+        margin-top: 0;
+        object-fit: cover;   
+    }
+
+    .activityText{
+        font-size: 1.3 rem;
+    }
+
+    .footerPage{
+        width: 1460px;
+        margin-left: -35px;
+        padding-right: 300px;
     }
 }
