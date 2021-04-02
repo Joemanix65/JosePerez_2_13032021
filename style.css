@@ -36,7 +36,6 @@ a {
     display: flex; 
     flex-wrap: wrap;
     align-items: center;
-    border: solid blue;
 }
 
 .figure{
@@ -44,7 +43,6 @@ a {
     flex-grow: 1;
     margin-left: 15px;
     padding-right: 80px;
-    /*border: solid green;*/
 }
 
 .imglogo {
@@ -60,7 +58,6 @@ a {
     display: flex;
     font-weight: 400;
     margin: 0 15px;
-    border: solid yellow;
     padding-left: 10px;
     padding-right: 10px; 
     
@@ -97,7 +94,6 @@ a {
     color:#0065FC;
     font-weight: 900;
     font-size: 1.1rem;
-    border: solid green;
 }
 
 h1 {
