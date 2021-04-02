@@ -75,7 +75,7 @@ a {
 .anchor{
     margin-left: 10px;
     padding-left: 15px;
-    margin-right: 50px;
+    margin-right: 40px;
     padding-bottom: 10px;
     margin-bottom: 20px;
     font-size: 1.05rem;
@@ -86,6 +86,7 @@ a {
     margin-bottom: 20px;
     font-size: 1.05rem;
     margin-left: 0;
+    margin-right: 0;
     
 }
 
