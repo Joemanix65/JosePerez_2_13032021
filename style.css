@@ -27,7 +27,7 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: auto;
     margin-top: 20px;
 }
 
@@ -59,10 +59,11 @@ a {
     order:3;
     display: flex;
     font-weight: 400;
-    margin: 0 20px;
+    margin: 0 15px;
     border: solid yellow;
-    padding-left: 14px;
-    padding-right: 14px; 
+    padding-left: 10px;
+    padding-right: 10px; 
+    
 }
 
 .anchor, .anchor1:hover {
@@ -75,7 +76,7 @@ a {
 .anchor{
     margin-left: 10px;
     padding-left: 15px;
-    margin-right: 40px;
+    margin-right: 30px;
     padding-bottom: 10px;
     margin-bottom: 20px;
     font-size: 1.05rem;
@@ -92,11 +93,11 @@ a {
 
 .register {
     order: 2;
-    margin-right: 30px;
+    margin-right: 10px;
     color:#0065FC;
     font-weight: 900;
     font-size: 1.1rem;
-    /*border: solid red;*/
+    border: solid green;
 }
 
 h1 {
