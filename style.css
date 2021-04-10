@@ -10,9 +10,6 @@ body {
     line-height: 1;
     margin: 0;
     font-family: 'Raleway', sans-serif;
-    display: flex;
-	justify-content: center;
-    
 }
 
 a {
@@ -22,10 +19,10 @@ a {
 
 #container {
 	width: 100%;
-	
 }
 
 .header {
+    width: auto;
     display: flex;
     justify-content: auto;
     margin-top: 20px;
@@ -58,10 +55,9 @@ a {
     display: flex;
     justify-content: center;
     font-weight: 400;
-    margin: 0 15px;
     padding-left: 10px;
     padding-right: 10px; 
-    width: 40%; 
+    width: 50%; 
 }
 
 .anchor:hover{
@@ -79,9 +75,7 @@ a {
 }
 
 .anchor{
-    margin-left: 10px;
-    padding-left: 20px;
-    margin-right: 0;
+    padding-left: 20px; 
     padding-bottom: 10px;
     margin-bottom: 20px;
     font-size: 1.05rem;
@@ -92,8 +86,6 @@ a {
     padding-bottom: 10px;
     margin-bottom: 20px;
     font-size: 1.05rem;
-    margin-left: 0;
-    margin-right: 0;
     border-bottom:3px solid #f2f2f2;
 }
 
@@ -235,14 +227,16 @@ p{
 
 .aside{
     width: auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
     background-color:#f2f2f2 ;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 35px;
+    padding: 10px 10px 10px 10px;
 }
 
 .titrePopulaire{
-    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .mostPopular{
@@ -251,34 +245,42 @@ p{
 }
 
 .fa-chart-line{
-    margin-right: 50px;
-    margin-top: 15px;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+
+.popularHotel{
+    padding: 10px 10px 0px 10px;
+    
 }
 
 .popularLink{
     display: flex;
-    width: 310px;
-    height: 140px;
+    justify-content: space-around;
+    width: 100%;
+    height: 30%;
     border-radius: 15px ;
     background-color: white;
-    margin-left: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    padding: 1px 1px 1px 1px;
+   
 }
 
 .popularImg{
-    width: 125px;
+    width: 40%;
+    height: auto;
     border-radius: 15px 0 0 15px;
     margin-left: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
+    object-fit: cover;
 }
 
 .popularText{
     display: block;
     justify-content:flex-start;
-    
+    margin-right: 5px;
     margin-left: 15px;
-    
 }
 
 h3{
@@ -288,14 +290,15 @@ h3{
 .popularP{
     margin-left: 0;
     margin-top: -10px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
     font-size: 1rem;
+    
 }
 
 .fa-star.bl{
     color: #0065FC;
     font-size: 0.8rem;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .fa-star.gr{
@@ -304,24 +307,29 @@ h3{
 }
 
 .hostingTitre{
-    margin-top: 40px;
+    margin-top: 20px;
+}
+.hosting{
+    width: auto;
+    height: auto;
+    padding: 10px 10px 10px 10px;
 }
 
 .HotelLink{
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 200px;
+    width: 94%;
+    height: 18%;
     border-radius: 15px ;
     border: 2px solid #f2f2f2;
     box-shadow: 0px 2px 2px #f2f2f2;
-    margin-left: 20px;
+    margin-left: 12px;
     margin-bottom: 15px;
 }
 
 .hostImg{
-    width: 285px;
-    height: 110px;
+    width: 97%;
+    height:110px ;
     border-radius: 15px 15px 0 0;
     margin-left: 5px;
     margin-top: 5px;
@@ -342,7 +350,7 @@ h3{
 .fa-star.b{
     color: #0065FC;
     font-size: 0.8rem;
-    
+    margin-bottom: 5px;
 }
 
 .fa-star.g{
@@ -356,6 +364,12 @@ h3.affichePlus{
     margin-top: 30px;
 }
 
+.activity{
+    width: auto;
+    height: 1310px;
+    padding: 10px 10px 10px 10px;
+}
+
 .activityLink1,
 .activityLink2,
 .activityLink3,
@@ -364,17 +378,17 @@ h3.affichePlus{
 .activityLink6{
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 200px;
+    width: 94%;
+    height: 18%;
     border-radius: 15px ;
     border: 2px solid #f2f2f2;
     box-shadow: 0px 2px 2px #f2f2f2;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-bottom: 15px;
 }
 
 .activityImg{
-    width: 298px;
+    width: 100%;
     height: 135px;
     border-radius: 15px 15px 0 0;
     margin-left: 0;
@@ -401,11 +415,13 @@ h3.foot{
     font-size: 1.2rem;
 }
 
+
 .footerChoice{
     margin-left: 30px;
     line-height: 2;
     font-size: 1.05rem;
     font-weight: 500;
+    
 }
 
 
@@ -461,14 +477,13 @@ h3.foot{
 
     .register {
         order: 3;
-        margin: 0 80px 5px 20px;
+        margin: 0 100px 5px 20px;
         
         color:#0065FC;
         font-weight: 1000;
         padding-top: 15px;
     }
 
-   
     .search_button{
         display: none;
         border-radius: none;
@@ -488,28 +503,74 @@ h3.foot{
         margin-right: 15px;
         margin-left: -10px;
     }
-   
 
-    .hostingHotel{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+    .boutonFiltre{
+    margin-right: 20px;
+    }
+
+    .aside{
+        width: 90%;
+        height: 450px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .popularLink{
+        width: 48%;
+        height: 40%;
     }
 
     .popularHotel{
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        justify-content: space-around; 
+    }
+    .hosting{
+        width: 90%;
+        height: auto;
+        padding: 10px 10px 10px 10px;  
+    }
+
+    .HotelLink{
+        width: 40%;
+        height: 40%;
+        margin-right: 20px;
+    }
+
+    .hostingHotel{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
         justify-content: space-around;
+    }
+
+    .activity{
+        width: 90%;
+        height: auto;
+        padding: 10px 10px 10px 10px; 
     }
 
     .activitySample{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .activityLink1,
+    .activityLink2,
+    .activityLink3,
+    .activityLink4,
+    .activityLink5,
+    .activityLink6{
+        width: 40%;
+        height: 40%;
+        margin-right: 20px;
     }
 
     .footerPage{
         display: flex;
+        width: 88%;
         height: auto;
         justify-content: space-around;
     }
@@ -518,7 +579,8 @@ h3.foot{
 @media screen and (min-width: 1024px){
     #container {
         width: 100%;
-        max-width: 1400px;   
+        max-width: 1400px;
+         
     }
 
     .filtre_bar{
@@ -539,33 +601,38 @@ h3.foot{
     }
 
     .asideHost{
+        width: 1415px;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
+        padding: 10px 10px 10px 10px;
     }
 
     .aside{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
         height: 600px;
-        width: 390px;
         margin-top: 40px;
         margin-right: 50px;
+        margin-left: 40px;
         border-radius: 25px 25px 25px 25px;
-        
-        padding-right: 15px;
+        padding-bottom: 30px;
     }
 
     .hosting{
+        width: 70%;
+        height: 600px;
         background-color:#f2f2f2;
         border-radius: 25px 25px 25px 25px;
         margin-top: 40px;
-        margin-left: 25px;
-        
-        height: 600px;
-        width: 900px;
+        margin-left: 10px;
     }
 
     .hostingTitre{
-        margin-left: 50px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        
     }
 
     h3.affichePlus{
@@ -574,39 +641,59 @@ h3.foot{
 
     .hostingHotel{
         width: 900px;
-        padding-right: 15px;
+        padding-right: 20px;
     }
 
     .popularLink{
-        width: 340px;
-        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 30%;
+        border-radius: 15px ;
+        background-color: white;
+        
+        margin-bottom: 5px;
     }
 
     .popularText{
         width: 180px;
     }
 
+    .fa-star.bl{
+        margin-top: 50px;
+    }
+    
     .HotelLink{
         background-color: white;
         box-shadow: 0px 3px 3px rgb(197, 196, 196);
-        width: 260px;
+        width: 28%;
+        margin-bottom: 25px;
+        
     }
 
     .hostImg{
-        width: 248px;
+        width: 96%;
+    }
+
+    .activity{
+        display: flex;
+        width: auto;
+        height: 550px;
+        flex-flow: column wrap;
+        padding: 10px 10px 10px 10px;
     }
 
     .activitySample{
         display: flex;
         height: 480px;
-        width: 1200px;
+        width: 1350px;
         flex-flow: column wrap;
     }
 
     .activityLink1,
     .activityLink4{
-        width: 310px;
-        height: 450px;
+        width: 22%;
+        height: 95%;
     }   
     .activityLink1{
         order: 1;
@@ -627,55 +714,58 @@ h3.foot{
     }
 
     .activityLink2{
-        height: 210px;
-        margin-top: 12px;
-        margin-bottom: 20px;
+        width: 23%;
+        height: 49%;
+       margin-top: 12px;
+        
     }
 
     .Img2{
-        height: 150px;
+        height: 76%;
+        
     }
 
     .activityLink3{
-        margin-top: 20px;
+        width: 23%;
+        height: 37%;
+        margin-top: 25px;
     }
 
     .Img3{
-        height: 140px;
+        height: 69%;
     }
 
     .activityLink5,
     .activityLink6{
         order: 4;
-        margin-left: 40px;
+        margin-left: 20px;
         margin-top: 10px;
     }
 
     .activityLink5{
-        margin-bottom: 5px;
-        height: 180px;
+        width: 23%;
+        height: 37%;
     }
 
     .Img5{
-        height: 120px;
+        height: 69%;
     }
 
     .activityLink6{
-        height: 220px;
-        margin-top: 40px;
+        width: 23%;
+        height: 49%;
+        margin-top: 25px;
     }
     
     .Img6{
-        height: 160px;
+        height: 76%;
     }
 
     .Img1,
     .Img4{
-        width: 308px;
-        height: 450px;
+        width: 100%;
+        height: 90%;
         border-radius: 15px 15px 0 0;
-        margin-left: 0;
-        margin-top: 0;
         object-fit: cover;   
     }
 
@@ -684,7 +774,7 @@ h3.foot{
     }
 
     .footerPage{
-        width: 1460px;
+        width: 1440px;
         display: flex;
         justify-content: flex-start;
         justify-content: space-between;
@@ -701,5 +791,10 @@ h3.foot{
     .activityLink5:hover,
     .activityLink6:hover{
         transform: scale(1.02);
+    }
+
+    #container {
+        width: 100%;
+        margin-left: 280px;
     }
 }
