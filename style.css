@@ -138,6 +138,7 @@ p{
     font-size: 1.2rem;
     font-weight: bold;
     padding: 10px 10px;
+    outline-style: none;
 }
 
 .search_button{
@@ -577,9 +578,20 @@ h3.foot{
 
 @media screen and (min-width: 1024px){
     #container {
-        width: 100%;
+        width: auto;
         max-width: 1400px;
-         
+       
+    }
+    .imglogo{
+        margin-top: -20px;
+    }
+
+    .anchor, .anchor1{
+        margin-top: -40px;
+    }
+
+    .register{
+        margin-top: -40px;
     }
 
     .filtre_bar{
@@ -597,6 +609,7 @@ h3.foot{
     .boutonFiltre{
         margin-left: 15px;
         margin-right: 15px;
+        cursor: pointer;
     }
 
     .asideHost{
