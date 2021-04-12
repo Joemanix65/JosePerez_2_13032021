@@ -18,7 +18,8 @@ a {
 }
 
 #container {
-	width: 100%;
+    max-width: 1400px;
+    margin: auto; 
 }
 
 .header {
@@ -101,15 +102,12 @@ h1 {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 15px; 
-    
 }
 
 p{
     margin-left: 15px;
     margin-right: 15px;
     font-size: 1rem;
-   
-    
 }
 
 .search_bar{
@@ -251,7 +249,6 @@ p{
 
 .popularHotel{
     padding: 10px 10px 0px 10px;
-    
 }
 
 .popularLink{
@@ -263,7 +260,6 @@ p{
     background-color: white;
     margin-bottom: 10px;
     padding: 1px 1px 1px 1px;
-   
 }
 
 .popularImg{
@@ -292,7 +288,6 @@ h3{
     margin-top: -10px;
     margin-bottom: 50px;
     font-size: 1rem;
-    
 }
 
 .fa-star.bl{
@@ -334,7 +329,6 @@ h3{
     margin-left: 5px;
     margin-top: 5px;
     object-fit: cover;
-    
 }
 
 .hostingText{
@@ -415,25 +409,19 @@ h3.foot{
     font-size: 1.2rem;
 }
 
-
 .footerChoice{
     margin-left: 30px;
     line-height: 2;
     font-size: 1.05rem;
     font-weight: 500;
-    
 }
 
 
 @media screen and (min-width: 768px) {
-    #container {
-        width: 100%;
-    }
 
     .header{
         display: flex;
         align-items: center;
-        
         width: 100%;
     }
 
@@ -486,7 +474,6 @@ h3.foot{
 
     .search_button{
         display: none;
-        
     }
     
     .search_button2{
@@ -577,11 +564,7 @@ h3.foot{
 }
 
 @media screen and (min-width: 1024px){
-    #container {
-        width: auto;
-        max-width: 1400px;
-       
-    }
+   
     .imglogo{
         margin-top: -20px;
     }
@@ -803,10 +786,5 @@ h3.foot{
     .activityLink5:hover,
     .activityLink6:hover{
         transform: scale(1.02);
-    }
-
-    #container {
-        width: 100%;
-        margin-left: 280px;
-    }
+    } 
 }
