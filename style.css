@@ -3,7 +3,7 @@
 }
 
 html {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 body {
@@ -123,9 +123,9 @@ p{
 .fa-map-marker-alt {
     border-radius: 15px 0 0 15px;
     background-color: #f2f2f2;
-    width: 50px;
-    height: 50px;
-    padding: 18px;
+    width: 60px;
+    height: 60px;
+    padding: 22px;
 }
 .search_input{
     font-family: 'Raleway', sans-serif;
@@ -133,8 +133,8 @@ p{
     border-bottom:1px solid #f2f2f2;
     border-right: none;
     border-left: none;
-    width: 210px;
-    height: 50px;
+    width: 60%;
+    height: 60px;
     font-size: 1.2rem;
     font-weight: bold;
     padding: 10px 10px;
@@ -146,8 +146,8 @@ p{
     color:white;
     border-radius: 15px ;
     background-color: #0065FC;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin-right: 20px;
     margin-left: -10px;
 }
@@ -158,7 +158,7 @@ p{
 
 .filtreTitre{
     margin-top: 10px;
-    margin-left: 15px;
+    margin-left: 20px;
     margin-right: 280px;
     font-size: 1.2em;
     flex-grow: 1;
@@ -176,7 +176,7 @@ p{
     width: auto;
     border: 3px solid #f2f2f2;
     border-radius: 50px 50px 50px 50px;
-    margin-left: 5px;
+    margin-left: 20px;
     margin-bottom: 5px;
 }
 
@@ -191,8 +191,8 @@ p{
     justify-content: center;
     align-items: center;
     color: #0065FC;
-    min-width: 46px;
-    min-height: 46px;
+    min-width: 55px;
+    min-height: 55px;
     background-color: #deebff;
     border: 3px solid #deebff;
     border-radius: 50%;
@@ -201,7 +201,7 @@ p{
 
 .filtreNom{
     margin: 0 10px 0 10px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
@@ -227,25 +227,27 @@ p{
 
 .aside{
     width: auto;
-    height: 600px;
+    height: auto;
     display: flex;
     flex-direction: column;
     background-color:#f2f2f2 ;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 25px 10px;
 }
 
 .titrePopulaire{
     margin-top: 20px;
     margin-bottom: 15px;
+    font-size: 1.3rem;
 }
 
 .mostPopular{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .fa-chart-line{
-    margin-right: 30px;
+    margin-right: 5px;
     margin-top: 25px;
 }
 
@@ -257,45 +259,59 @@ p{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 30%;
-    border-radius: 15px ;
+    height: 20%;
+    border-radius: 20px ;
     background-color: white;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     padding: 1px 1px 1px 1px;
 }
 
+.vignette{
+    display: flex;
+}
+
+.containImg{
+    display: flex;
+    width: 48%;
+    overflow: hidden;
+    height: 190px;
+    border-radius: 20px 0 0 20px;
+    
+}
+
 .popularImg{
-    width: 40%;
-    height: auto;
-    border-radius: 15px 0 0 15px;
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    width: 99%;
+    height: 94%;
+    border-radius: 20px 0 0 20px;
     object-fit: cover;
+    margin: 5px 0 5px 5px;
+    
 }
 
 .popularText{
     display: block;
+    width: 60%;
     justify-content:flex-start;
-    margin-right: 5px;
-    margin-left: 15px;
+    margin-right: 10px;
+    margin-left: 25px;
 }
 
 h3{
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .popularP{
     margin-left: 0;
     margin-top: -10px;
     margin-bottom: 50px;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    
 }
 
 .fa-star.bl{
     color: #0065FC;
     font-size: 0.8rem;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 .fa-star.gr{
@@ -476,8 +492,13 @@ h3.foot{
 
     .search_button{
         display: none;
+        
     }
-    
+
+    .search_input{
+        width: 35%;
+        height: 60px;
+    }
     .search_button2{
         display: block;
         border: none;
@@ -485,7 +506,7 @@ h3.foot{
         color:white;
         background-color: #0065FC;
         width: 140px;
-        height: 50px;
+        height: 60px;
         font-family: 'Raleway', sans-serif;
         font-size: 1.1rem;
         font-weight: 600;
@@ -498,14 +519,35 @@ h3.foot{
     }
 
     .aside{
-        width: 100%;
-        height: 450px;
+        width: 99%;
+        height: auto;
         padding: 10px 10px 10px 10px;
     }
 
     .popularLink{
         width: 48%;
         height: 40%;
+    }
+
+    .popularText{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+     
+        margin-right: 5px;
+        margin-left: 20px;
+        
+    }
+    .containImg{
+        width: 55%;
+    }
+    h3{
+        font-size: 1.1rem;
+    }
+    .fa-star.bl{
+        color: #0065FC;
+        font-size: 0.8rem;
+        margin-top: 40%;
     }
 
     .popularHotel{
@@ -591,6 +633,11 @@ h3.foot{
         margin-right: 10px;
     }
 
+    .search_input{
+        width: 25%;
+        height: 60px;
+    }
+
     .filtre_bar{
         display: flex;
         align-items: center;
@@ -618,15 +665,18 @@ h3.foot{
     .aside{
         display: flex;
         width: 100%;
-        height: 260px;
+        height: auto;
         margin-top: 40px;
         margin-right: 50px;
         margin-left: 10px;
         border-radius: 25px 25px 25px 25px;
         padding-bottom: 30px;
-       
     }
 
+    .containImg{
+        width: 40%;
+    }
+    
     .hosting{
         width: 100%;
         height: 600px;
@@ -645,6 +695,7 @@ h3.foot{
 
     h3.affichePlus{
         margin-left: 60px;
+        margin-top: 5px;
     }
 
     .hostingHotel{
@@ -670,7 +721,7 @@ h3.foot{
     }
 
     .fa-star.bl{
-        margin-top: 30px;
+        margin-top: 80px;
     }
     
     .HotelLink{
@@ -864,30 +915,27 @@ h3.foot{
         display: flex;
         flex-direction: column;
         width: 40%;
-        height: 840px;
+        height: 780px;
         margin-top: 40px;
         margin-right: 10px;
         margin-left: 45px;
         border-radius: 25px 25px 25px 25px;
         padding-bottom: 30px;
-        
     }
 
     .hosting{
         
         width: 60%;
-        height: 840px;
+        height: 780px;
         background-color:#f2f2f2;
         border-radius: 25px 25px 25px 25px;
         margin-top: 40px;
         margin-left: 0px;
-        
     }
 
     .hostingTitre{
         margin-left: 20px;
         margin-bottom: 20px;
-        
     }
 
     h3.affichePlus{
@@ -898,19 +946,25 @@ h3.foot{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        margin-left: 0;
-        
+        margin-left: 0; 
     }
 
+    .titrePopulaire{
+        margin-bottom: 0;
+    }
     .popularLink{
         display: flex;
         justify-content: space-between;
         width: 100%;
-        height: 30%;
+        height: 28%;
         border-radius: 15px ;
         background-color: white;
-        
-        margin-bottom: 5px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .popularImg{
+        width: 99%;
+        height: 96%;
     }
 
     .popularText{
@@ -918,17 +972,19 @@ h3.foot{
     }
 
     .fa-star.bl{
-        margin-top: 50px;
         
-        margin-top: 115px;
+        margin-top: 90px;
     }
     
+    h3{
+        font-size: 1rem;
+    }
     .HotelLink{
         background-color: white;
         box-shadow: 0px 3px 3px rgb(197, 196, 196);
-        width: 38%;
+        width: 42%;
         margin-bottom: 25px;
-        
+        margin-right: 10px;
     }
 
     .hostImg{
@@ -1100,6 +1156,10 @@ h3.foot{
         cursor: pointer;
     }
 
+    .search_input{
+        width: 260px;
+    }
+
     .asideHost{
         width: auto;
         height: 680px;
@@ -1124,6 +1184,11 @@ h3.foot{
         border-radius: 25px 25px 25px 25px;
         padding-bottom: 30px;
     }
+    
+    .popularHotel{
+        height: 98%;
+        padding-bottom: 15px;
+    }
 
     .hosting{
         width: 66%;
@@ -1141,7 +1206,7 @@ h3.foot{
     }
 
     h3.affichePlus{
-        margin-left: 60px;
+        margin-left: 20px;
     }
 
     .hostingHotel{
@@ -1149,20 +1214,26 @@ h3.foot{
         margin-top: 25px;
         
     }
+    .titrePopulaire{
+        margin-bottom: 15px;
+        font-size: 1.5rem;
+    }
 
     .popularImg{
-        width: 40%;
+        width: 98%;
+        height: 71%;
     }
 
     .popularLink{
         display: flex;
         justify-content: space-between;
         width: 96%;
-        height: 28%;
+        height: 27%;
         border-radius: 15px ;
         background-color: white;
-        
-        margin-bottom: 5px;
+        box-shadow: 0px 3px 3px rgb(197, 196, 196);
+        margin-top: 5px;
+        margin-bottom: 10px;
     }
 
     .popularText{
@@ -1306,6 +1377,9 @@ h3.foot{
         margin-left: -35px;
         padding-left: 30px;
         padding-right: 250px;
+    }
+    .colRight{
+        margin-right: 120px;
     }
 
     .popularLink:hover,
