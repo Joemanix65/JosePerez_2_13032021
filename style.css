@@ -260,7 +260,7 @@ p{
     justify-content: space-around;
     width: 100%;
     height: 20%;
-    border-radius: 20px ;
+    border-radius: 25px ;
     background-color: white;
     margin-bottom: 15px;
     padding: 1px 1px 1px 1px;
@@ -268,6 +268,7 @@ p{
 
 .vignette{
     display: flex;
+    width: 100%;
 }
 
 .containImg{
@@ -333,7 +334,7 @@ h3{
     flex-direction: column;
     width: 94%;
     height: 18%;
-    border-radius: 15px ;
+    border-radius: 25px ;
     border: 2px solid #f2f2f2;
     box-shadow: 0px 2px 2px #f2f2f2;
     margin-left: 12px;
@@ -341,9 +342,9 @@ h3{
 }
 
 .hostImg{
-    width: 97%;
+    width: 98%;
     height:110px ;
-    border-radius: 15px 15px 0 0;
+    border-radius: 20px 20px 0 0;
     margin-left: 5px;
     margin-top: 5px;
     object-fit: cover;
@@ -569,6 +570,10 @@ h3.foot{
         margin-right: 20px;
     }
 
+    .hostImg{
+        width: 97%;
+    }
+
     .hostingHotel{
         display: flex;
         flex-wrap: wrap;
@@ -710,7 +715,7 @@ h3.foot{
         justify-content: space-between;
         width: 31%;
         height: 80%;
-        border-radius: 15px ;
+        border-radius: 25px ;
         background-color: white;
         
         margin-bottom: 5px;
@@ -957,7 +962,7 @@ h3.foot{
         justify-content: space-between;
         width: 100%;
         height: 28%;
-        border-radius: 15px ;
+        border-radius: 25px ;
         background-color: white;
         margin-top: 15px;
         margin-bottom: 25px;
@@ -988,7 +993,7 @@ h3.foot{
     }
 
     .hostImg{
-        width: 96%;
+        width: 95%;
     }
 
     .activity{
@@ -1229,7 +1234,7 @@ h3.foot{
         justify-content: space-between;
         width: 96%;
         height: 27%;
-        border-radius: 15px ;
+        border-radius: 25px ;
         background-color: white;
         box-shadow: 0px 3px 3px rgb(197, 196, 196);
         margin-top: 5px;
