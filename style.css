@@ -41,7 +41,7 @@ a {
     display: flex; 
     flex-grow: 1;
     margin-left: 15px;
-    padding-right: 80px;
+    padding-right: 60px;
 }
 
 .imglogo {
@@ -97,6 +97,7 @@ a {
     color:#0065FC;
     font-weight: 900;
     font-size: 1.1rem;
+    
 }
 
 h1 {
@@ -294,6 +295,7 @@ p{
     justify-content:flex-start;
     margin-right: 10px;
     margin-left: 25px;
+    position: relative;
 }
 
 h3{
@@ -305,13 +307,19 @@ h3{
     margin-top: -10px;
     margin-bottom: 50px;
     font-size: 0.9rem;
-    
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.popularStar{
+    position: absolute;
+    bottom: 13px;
 }
 
 .fa-star.bl{
     color: #0065FC;
     font-size: 0.8rem;
-    margin-top: 90px;
+    /* margin-top: 90px; */
 }
 
 .fa-star.gr{
@@ -352,11 +360,6 @@ h3{
 .hostingText{
     margin-top: -5px;
     margin-left: 12px;
-}
-
-.popularP{
-    line-height: 1.2;
-    margin-bottom: 8px;
 }
 
 .fa-star.b{
@@ -547,7 +550,7 @@ h3.foot{
     .fa-star.bl{
         color: #0065FC;
         font-size: 0.8rem;
-        margin-top: 40%;
+        /* margin-top: 40%; */
     }
 
     .popularHotel{
@@ -722,10 +725,6 @@ h3.foot{
 
     .popularText{
         width: 170px;
-    }
-
-    .fa-star.bl{
-        margin-top: 80px;
     }
     
     .HotelLink{
@@ -973,11 +972,6 @@ h3.foot{
 
     .popularText{
         width: 180px;
-    }
-
-    .fa-star.bl{
-        
-        margin-top: 90px;
     }
     
     h3{
@@ -1243,11 +1237,6 @@ h3.foot{
     .popularText{
         width: 180px;
         margin-right: 20px;
-    }
-
-    .fa-star.bl{
-        margin-top: 40px;
-        
     }
     
     .fa-star.b{
