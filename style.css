@@ -319,7 +319,6 @@ h3{
 .fa-star.bl{
     color: #0065FC;
     font-size: 0.8rem;
-    /* margin-top: 90px; */
 }
 
 .fa-star.gr{
@@ -437,7 +436,6 @@ h3.foot{
     font-weight: 500;
 }
 
-
 @media screen and (min-width: 768px) {
 
     .header{
@@ -541,16 +539,18 @@ h3.foot{
         margin-left: 20px;
         
     }
+
     .containImg{
         width: 55%;
     }
+
     h3{
         font-size: 1.1rem;
     }
+
     .fa-star.bl{
         color: #0065FC;
         font-size: 0.8rem;
-        /* margin-top: 40%; */
     }
 
     .popularHotel{
@@ -560,6 +560,7 @@ h3.foot{
         height: 100%;
         justify-content: space-around; 
     }
+
     .hosting{
         width: 100%;
         height: auto;
@@ -595,6 +596,7 @@ h3.foot{
         width: 100%;
         justify-content: space-around;
     }
+
     .activityLink1,
     .activityLink2,
     .activityLink3,
@@ -621,12 +623,14 @@ h3.foot{
         margin-left: auto;
         margin-right: auto;
     }
+
     .navbarre {
         width: 100%;
         display: flex; 
         flex-wrap: wrap;
         
     }
+
     .imglogo{
         margin-top: -20px;
     }
@@ -691,13 +695,11 @@ h3.foot{
         border-radius: 25px 25px 25px 25px;
         margin-top: 40px;
         margin-left: 10px;
-        
     }
 
     .hostingTitre{
         margin-left: 20px;
         margin-bottom: 20px;
-        
     }
 
     h3.affichePlus{
@@ -708,7 +710,6 @@ h3.foot{
     .hostingHotel{
         width: 95%;
         margin-left: 25px;
-       
     }
 
     .popularLink{
@@ -719,7 +720,6 @@ h3.foot{
         height: 80%;
         border-radius: 25px ;
         background-color: white;
-        
         margin-bottom: 5px;
     }
 
@@ -744,7 +744,6 @@ h3.foot{
         height: 550px;
         flex-flow: column wrap;
         padding: 10px 10px 10px 10px;
-        
     }
 
     .activitySample{
@@ -760,21 +759,20 @@ h3.foot{
     .activityLink4{
         width: 22%;
         height: 95%;
-        
-
     }   
+
     .activityLink1{
         order: 1;
         margin-right: 50px;
         margin-top: 12px;
     }
+
     .activityLink4{
-        
         order: 3;
         margin-top: 12px;
         margin-left: -12px;
-        
     }
+
     .activityLink4 h3{
         margin-top: 0;
     }
@@ -786,19 +784,16 @@ h3.foot{
         order: 2;
         margin-left: -22px;
         margin-right: 40px;
-        
     }
 
     .activityLink2{
         width: 22%;
         height: 49%;
        margin-top: 15px;
-       
     }
 
     .Img2{
         height: 76%;
-        
     }
 
     .activityLink3{
@@ -955,6 +950,7 @@ h3.foot{
     .titrePopulaire{
         margin-bottom: 0;
     }
+
     .popularLink{
         display: flex;
         justify-content: space-between;
@@ -965,6 +961,7 @@ h3.foot{
         margin-top: 15px;
         margin-bottom: 25px;
     }
+
     .popularImg{
         width: 99%;
         height: 96%;
@@ -977,6 +974,7 @@ h3.foot{
     h3{
         font-size: 1rem;
     }
+
     .HotelLink{
         background-color: white;
         box-shadow: 0px 3px 3px rgb(197, 196, 196);
@@ -995,7 +993,6 @@ h3.foot{
         height: 550px;
         flex-flow: column wrap;
         padding: 10px 10px 10px 10px;
-        
     }
 
     .activitySample{
@@ -1010,11 +1007,13 @@ h3.foot{
         width: 22%;
         height: 95%;
     }   
+
     .activityLink1{
         order: 1;
         margin-right: 60px;
         margin-top: 12px;
     }
+
     .activityLink4{
         order: 3;
         margin-top: 12px;
@@ -1032,12 +1031,10 @@ h3.foot{
         width: 23%;
         height: 49%;
        margin-top: 12px;
-        
     }
 
     .Img2{
         height: 76%;
-        
     }
 
     .activityLink3{
@@ -1194,13 +1191,11 @@ h3.foot{
         background-color:#f2f2f2;
         border-radius: 25px 25px 25px 25px;
         margin-top: 40px;
-        
     }
 
     .hostingTitre{
         margin-left: 20px;
         margin-bottom: 20px;
-        
     }
 
     h3.affichePlus{
@@ -1210,8 +1205,8 @@ h3.foot{
     .hostingHotel{
         width: auto;
         margin-top: 25px;
-        
     }
+
     .titrePopulaire{
         margin-bottom: 15px;
         font-size: 1.5rem;
@@ -1241,7 +1236,6 @@ h3.foot{
     
     .fa-star.b{
         margin-bottom: 15px;
-        
     }
 
     .HotelLink{
@@ -1249,7 +1243,6 @@ h3.foot{
         box-shadow: 0px 3px 3px rgb(197, 196, 196);
         width: 29%;
         margin-bottom: 25px;
-        
     }
 
     .hostImg{
@@ -1276,11 +1269,13 @@ h3.foot{
         width: 21%;
         height: 95%;
     }   
+
     .activityLink1{
         order: 1;
         margin-right: 35px;
         margin-top: 12px;
     }
+
     .activityLink4{
         order: 3;
         margin-top: 12px;
@@ -1298,12 +1293,10 @@ h3.foot{
         width: 22%;
         height: 49%;
        margin-top: 12px;
-        
     }
 
     .Img2{
         height: 76%;
-        
     }
 
     .activityLink3{
@@ -1371,6 +1364,7 @@ h3.foot{
         padding-left: 30px;
         padding-right: 250px;
     }
+    
     .colRight{
         margin-right: 120px;
     }
